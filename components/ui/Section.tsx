@@ -1,0 +1,28 @@
+"use client";
+
+import React from "react";
+
+type SectionProps = {
+    id?: string;
+    children: React.ReactNode;
+    className?: string;
+};
+
+export default function Section({
+    id,
+    children,
+    className = "",
+}: SectionProps) {
+    return (
+        <section
+            id={id}
+            className={`
+        relative
+        px-4 md:px-8
+        ${className}
+      `}
+        >
+            {children}
+        </section>
+    );
+}
