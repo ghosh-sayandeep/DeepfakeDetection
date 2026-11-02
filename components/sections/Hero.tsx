@@ -53,7 +53,7 @@ export default function Hero() {
             text-[var(--accent)]
             drop-shadow-[0_0_8px_var(--accent-soft)]
           ">
-            Detection
+            Catcher
           </span>
           System
         </motion.h1>
